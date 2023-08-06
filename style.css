@@ -1,0 +1,299 @@
+@font-face {
+  font-family: "Li Niladri Rongtuli Unicode";
+  src: url(assets/fonts/LiNiladriRongtuliUnicode-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Li Ador Noirrit";
+  src: url(assets/fonts/Li\ Ador\ Noirrit\ Regular.ttf);
+}
+@font-face {
+  font-family: "Malgun Gothic";
+  src: url(assets/fonts/malgun.ttf);
+}
+@font-face {
+  font-family: "Manrope";
+  src: url(assets/fonts/Manrope-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Li Sheikh Hasina 2";
+  src: url(assets/fonts/Li\ Sheikh\ Hasina\ 2\ Unicode.ttf);
+}
+
+body {
+  background: #fff;
+  max-width: 1920px;
+  margin: auto;
+}
+
+main {
+}
+
+h2 {
+  font-family: Li Niladri Rongtuli Unicode;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 82px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #003b60;
+}
+h6 {
+  font-family: Li Ador Noirrit;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #012a4a;
+}
+
+h5 {
+  font-family: Li Ador Noirrit;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #012a4a;
+}
+
+/* Banner Section Style Start */
+
+.banner {
+  background: #ffffff url("assets/image/banner-bg.png") no-repeat right top;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.banner-category {
+  background-color: #012a4a;
+  width: 387px;
+  height: 65.00016021728516px;
+  top: 197px;
+  left: 314px;
+  /* justify-content: center; */
+  padding-bottom: 5px;
+  border-radius: 40px 5px 40px 5px;
+}
+
+.banner-category-text {
+  color: #ffffff;
+  font-family: Li Ador Noirrit;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.banner-price-off {
+  font-family: Li Ador Noirrit;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #608aab;
+}
+
+.banner-price {
+  font-family: Li Ador Noirrit;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 74px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #012a4a;
+}
+
+.banner-order {
+  display: block;
+  width: 262px;
+  height: 76.68294525146484px;
+  top: 644px;
+  left: 314px;
+  background: #f0e615;
+  border-radius: 40px 5px 40px 5px;
+}
+
+.banner-price-text {
+  font-family: Li Niladri Rongtuli Unicode;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #003b60;
+}
+
+.U-frame {
+  /* position: absolute; */
+}
+.jeans-pants {
+  position: absolute;
+  width: 663px;
+  top: 100px;
+  left: 1100px;
+}
+
+.banner-call {
+  width: 476px;
+  height: 94.99999237060547px;
+  top: 733px;
+  left: 1192px;
+  background: #f0e615;
+  display: flex;
+  justify-content: center;
+  border-radius: 40px 5px 40px 5px;
+  padding-top: 18px;
+  margin-left: 50px;
+}
+.banner-call-number {
+  font-family: Malgun Gothic;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0em;
+  margin-left: 8px;
+}
+
+.banner-call-text {
+  width: 399px;
+  height: 75px;
+  top: 825px;
+  left: 1135px;
+  background: #012a4a;
+  border-radius: 40px 5px 40px 5px;
+}
+.banner-call-text span {
+  font-family: Li Ador Noirrit;
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  padding: 40px;
+  padding-top: 12px;
+}
+
+/* Banner Section Style End */
+
+/* Product Detais Section Style start */
+.product-details {
+  width: 1290px;
+  margin: auto;
+}
+.product-details-text {
+  font-family: Li Ador Noirrit;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #003b60;
+}
+
+.product-details-headline {
+  font-family: Li Niladri Rongtuli Unicode;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #003b60;
+  text-align: right;
+  margin-bottom: 20px;
+}
+.product-details-headline span {
+  margin-right: 200px;
+}
+.product-details-list {
+  display: flex;
+  justify-content: end;
+  text-align: left;
+}
+
+.product-details-list ol {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* Product Detais Section Style end */
+.denim {
+  background: #ffffff url("assets/image/denim_text_effect\ 1.png") no-repeat
+    center;
+  width: 1920px;
+  height: 1145px;
+  top: 1647px;
+}
+.denim-head {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.denim-pile-jeans {
+  padding-right: 70px;
+  position: relative;
+  top: -450px;
+}
+
+.denim-size {
+  margin-top: 100px;
+}
+
+.denim-head-text {
+  font-family: Li Niladri Rongtuli Unicode;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f0e615;
+}
+
+.denim-bottom {
+  text-align: center;
+}
+.denim-bottom span {
+  font-family: Li Sheikh Hasina 2;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+.denim-order {
+  display: block;
+  width: 444px;
+  height: 130px;
+  left: 314px;
+  background: #f0e615;
+  border-radius: 70px 5px 70px 5px;
+  margin: auto;
+}
+
+.denim-price-text {
+  font-family: Li Niladri Rongtuli Unicode;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #003b60;
+}
+
+/* Denim Section Style Start */
+
+/* Denim Section Style End */
