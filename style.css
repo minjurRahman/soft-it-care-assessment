@@ -553,7 +553,19 @@ hr {
   margin-top: 20px;
 }
 #arlin {
-  /* background-color: #003b60; */
+  background-color: #003b60;
   color: #ffffff;
+}
+#comenter-infoID {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  top: -30px;
+}
+#comenter-hrId {
+  width: 210px;
+  border: 1px dashed #f0e615;
 }
 /* Delevery Section Style End */
