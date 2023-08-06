@@ -569,3 +569,88 @@ hr {
   border: 1px dashed #f0e615;
 }
 /* Delevery Section Style End */
+
+/* Form Section Style Start */
+
+.form-section {
+  background-image: linear-gradient(rgba(4, 18, 31, 0.8), rgba(77, 80, 85, 0.2)),
+    url(./assets/image/918\ 1.png);
+  /* background-image: url(../Image/bg.jpg); */
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  width: 1920.0001220703198px;
+  height: 939.9998168945348px;
+}
+
+.form-section h4 {
+  font-family: Li Niladri Rongtuli Unicode;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 60px;
+}
+
+.form-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+input {
+}
+/* Form Section Style End */
+
+/* Footer Section Style Start */
+footer {
+  background-image: linear-gradient(
+      rgba(36, 127, 188, 0.8),
+      rgba(9, 12, 16, 0.96)
+    ),
+    url(./assets/image/Mask\ group.png);
+  /* background-image: url(../Image/bg.jpg); */
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  width: 1920.0001220703198px;
+  height: 400px;
+  position: relative;
+}
+
+.social {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.author {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fffeff;
+}
+
+.author-bold {
+  font-family: Manrope;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffe663;
+}
+
+/* Footer Section Style End */
