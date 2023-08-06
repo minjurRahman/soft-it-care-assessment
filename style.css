@@ -229,6 +229,8 @@ h5 {
 }
 
 /* Product Detais Section Style end */
+
+/* Denim Section Style Start */
 .denim {
   background: #ffffff url("assets/image/denim_text_effect\ 1.png") no-repeat
     center;
@@ -294,6 +296,69 @@ h5 {
   color: #003b60;
 }
 
-/* Denim Section Style Start */
-
 /* Denim Section Style End */
+
+/* Catogory Section Style Start*/
+.category {
+  width: 1290px;
+  margin: auto;
+  background-color: #f0f9ff;
+}
+.category-image {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 5px;
+  padding-top: 70px;
+}
+.category-image-details {
+  width: 260.52435302734375px;
+  border-radius: 70px 5px 70px 5px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.category-image-details p {
+  font-family: Li Ador Noirrit;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #003b60;
+  border-radius: 40px 5px 40px 5px;
+  padding: 25px;
+  color: #ffffff;
+}
+hr {
+  border: 1px dashed #003b60;
+  width: 1290px;
+  margin-top: 30px;
+}
+
+.category-our-denim {
+  text-align: center;
+}
+
+.category-our-denim h4 {
+  font-family: Li Niladri Rongtuli Unicode;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  color: #003b60;
+}
+.category-details-list {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  padding-bottom: 200px;
+}
+.category-details-list ol {
+  font-family: Li Ador Noirrit;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+/* Catogory Section Style End*/
