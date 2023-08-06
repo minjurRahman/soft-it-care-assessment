@@ -362,3 +362,57 @@ hr {
   text-align: left;
 }
 /* Catogory Section Style End*/
+
+/* Transection Section Style Start */
+.transection {
+  width: 1290px;
+  margin: auto;
+}
+.transaction-video {
+  background: #ffffff
+    url("./assets/image/bunch-twisted-jeans-close-up-fashionable-clothes (1) 1.png")
+    no-repeat center;
+  width: 1290px;
+  height: 788px;
+  position: relative;
+  border-radius: 100px 5px 100px 5px;
+  top: -200px;
+}
+.transaction-play-button {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+}
+
+.transection-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  position: relative;
+  top: -200px;
+}
+.transection-info h4 {
+  font-family: Li Niladri Rongtuli Unicode;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  color: #003b60;
+}
+.transection-info p {
+  border: 1px solid #003b60;
+  margin: auto;
+  padding: 10px;
+  font-family: Li Ador Noirrit;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+.transection-p2 {
+  width: 581;
+}
+/* Transection Section Style End */
